@@ -1,2 +1,0 @@
-# upad
-universal notepad
