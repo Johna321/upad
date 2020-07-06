@@ -1,24 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TextArea from './components/textarea/TextArea.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to experiment.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="title">
+        <h1>UPad.</h1>
+        <h3>(the universal notepad)</h3>
+      </div>
+      <div className="textArea">
+        <TextArea />
+      </div>
     </div>
   );
 }
