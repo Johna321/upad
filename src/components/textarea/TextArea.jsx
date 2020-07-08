@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import './textarea.css'
 
 class TextArea extends Component {
     render(){
         return (
-        <textarea />
+            <textarea className="mainText"/>
         );
     }
 }

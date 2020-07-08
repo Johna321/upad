@@ -1,14 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import TextArea from './components/textarea/TextArea.jsx';
+import logo from './upadbig.svg'
 
 function App() {
   return (
     <div className="App">
       <div className="title">
-        <h1>UPad.</h1>
-        <h3>(the universal notepad)</h3>
+        <img className="mainLogo" src={logo} />
       </div>
       <div className="textArea">
         <TextArea />

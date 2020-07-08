@@ -1,0 +1,10 @@
+.mainText{
+    width: 75%;
+    resize: none;
+    height: 400px;
+    border-radius: 5px;
+    outline: none;
+    border: 1.5px solid whitesmoke;
+    box-shadow: 1px 1.5px whitesmoke;
+    padding: 10px;
+}
